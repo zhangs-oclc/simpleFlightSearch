@@ -1,0 +1,5 @@
+- request:
+    url: /searchFlights
+    method: GET
+  response:
+    file: 'search-results.json'
