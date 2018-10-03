@@ -11,15 +11,12 @@ The application will call a service that you create in ExpressJS. Use Couchbase 
                                                                                                                                                                                                         
 https://docs.couchbase.com/server/5.5/analytics/quick-start.html#Using_docker
  
-
-
-
-
 Create a new bucket and add the documents included in project.
 
 [Flight Documents](./flight-docs/flight-sample.json)
 
-The file contains an array. Make a document out of each array element and chose any document key that you want.
+The file contains an array. Make a document out of each array element. You can you use any value you want as the document key. Create a N1QL statement update the date component of the arrrival and departure properties of each document. This will allow you to specify a current date when searching. 
+
 
 You must use Angular 4 or higher. Style however you would like. You have total freedom to do what you want but make sure it can do these two things:
 
