@@ -1,0 +1,104 @@
+[
+
+
+  {
+    "flightNumber": "0232",
+    "origin": "ORD",
+    "destination": "IAH",
+    "scheduledDeparture": "2018-10-01",
+    "scheduledArrival": "2018-10-01",
+    "fleet": "737",
+    "passengerCount": "120",
+    "status": "ON TIME"
+  },
+  {
+    "flightNumber": "0232",
+    "origin": "ORD",
+    "destination": "IAH",
+    "scheduledDeparture": "2018-10-01",
+    "scheduledArrival": "2018-10-01",
+    "fleet": "737",
+    "passengerCount": "120",
+    "status": "ON TIME"
+  },
+  {
+    "flightNumber": "0232",
+    "origin": "ORD",
+    "destination": "IAH",
+    "scheduledDeparture": "2018-10-01",
+    "scheduledArrival": "2018-10-01",
+    "fleet": "737",
+    "passengerCount": "120",
+    "status": "ON TIME"
+  },
+  {
+    "flightNumber": "0232",
+    "origin": "ORD",
+    "destination": "IAH",
+    "scheduledDeparture": "2018-10-01",
+    "scheduledArrival": "2018-10-01",
+    "fleet": "737",
+    "passengerCount": "120",
+    "status": "ON TIME"
+  },
+  {
+    "flightNumber": "0232",
+    "origin": "ORD",
+    "destination": "IAH",
+    "scheduledDeparture": "2018-10-01",
+    "scheduledArrival": "2018-10-01",
+    "fleet": "737",
+    "passengerCount": "120",
+    "status": "ON TIME"
+  },
+  {
+    "flightNumber": "0232",
+    "origin": "ORD",
+    "destination": "IAH",
+    "scheduledDeparture": "2018-10-01",
+    "scheduledArrival": "2018-10-01",
+    "fleet": "737",
+    "passengerCount": "120",
+    "status": "ON TIME"
+  },
+  {
+    "flightNumber": "0232",
+    "origin": "ORD",
+    "destination": "IAH",
+    "scheduledDeparture": "2018-10-01",
+    "scheduledArrival": "2018-10-01",
+    "fleet": "737",
+    "passengerCount": "120",
+    "status": "ON TIME"
+  },
+  {
+    "flightNumber": "0232",
+    "origin": "ORD",
+    "destination": "IAH",
+    "scheduledDeparture": "2018-10-01",
+    "scheduledArrival": "2018-10-01",
+    "fleet": "737",
+    "passengerCount": "120",
+    "status": "ON TIME"
+  },
+  {
+    "flightNumber": "0232",
+    "origin": "ORD",
+    "destination": "IAH",
+    "scheduledDeparture": "2018-10-01",
+    "scheduledArrival": "2018-10-01",
+    "fleet": "737",
+    "passengerCount": "120",
+    "status": "ON TIME"
+  },
+  {
+    "flightNumber": "0232",
+    "origin": "ORD",
+    "destination": "IAH",
+    "scheduledDeparture": "2018-10-01",
+    "scheduledArrival": "2018-10-01",
+    "fleet": "737",
+    "passengerCount": "120",
+    "status": "ON TIME"
+  }
+]

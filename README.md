@@ -1,32 +1,30 @@
 # simpleFlightSearch
-I want to asses your ability to create a simple AngularJS application. It truly is the bare minimum of knowledge necessary to be successful in this position. I don't  want you to spend a lot of time on this. You should be able to do this in a few hours if the job is right for you.
+I want to asses your ability to create a simple AngularJS / Express application. It truly is the bare minimum of knowledge necessary to be successful in this position. I don't want you to spend a lot of time on this. You should be able to do this in a few hours if the job is right for you.
 
-Flight Search
+###Flight Search
 
 This programming task consists of building a simple web application to search for flights. Create a new local branch to implement  a simple flight search application. It should take this input from the user:
 
 (Flight Number ||  (Origin && Destination)) && Date
 
-Your  application will call a service with the values of the inputs entered by the user and display the results.  These results will be returned by a service included in the repository. You will need to install stubby first. (This requires admin privileges) 
+The application will call a service that you create in ExpressJS. Use Couchbase as the data source. You can download the docker image of Couchase and run it locally.   
+                                                                                                                                                                                                        
+https://docs.couchbase.com/server/5.5/analytics/quick-start.html#Using_docker
+ 
 
-npm install -g  stubby
 
-To start the service simply run this command in the root directory of the project
 
-stubby -d ./stubs/flight-search.yaml
 
-You will be able to call this end point get a response once you have started the service
+Create a new bucket and add the documents included in project.
 
-http://localhost:8882/searchFlights?ori=IAH&des=ORD&d=2018-01-20
+[Flight Documents](./flight-docs/flight-sample.json)
 
-Or 
+The file contains an array. Make a document out of each array element and chose any document key that you want.
 
-http://localhost:8882/searchFlights?f=1234&d=2018-01-20
-
-You may use any version of AngularJS and style however you would like. You have total freedom to do what you want but make sure it can do these two things:
+You must use Angular 4 or higher. Style however you would like. You have total freedom to do what you want but make sure it can do these two things:
 
 	• Validate that the user has provided the right criteria to make a search 
 	• Neatly display the results
 
-Create a pull request once you have it working  and so I can evaluate it. I will follow up with a quick discussion to review the code.
+Create a pull request once you have it working and so I can evaluate it. I will follow up with a quick discussion to review the code.
 
