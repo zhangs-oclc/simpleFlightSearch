@@ -9,7 +9,7 @@ This programming task consists of building a simple web application to search fo
 
 The application will call a service that you create in ExpressJS. Use Couchbase as the data source. You can download the docker image of Couchase and run it locally.   
                                                                                                                                                                                                         
-https://docs.couchbase.com/server/5.5/analytics/quick-start.html#Using_docker
+https://docs.couchbase.com/server/5.5/install/getting-started-docker.html
  
 Create a new bucket and add the documents included in project.
 
