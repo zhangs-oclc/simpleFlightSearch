@@ -3,19 +3,18 @@ I want to asses your ability to create a simple AngularJS / Express application.
 
 ###Flight Search
 
-This programming task consists of building a simple web application to search for flights. Create a new local branch to implement  a simple flight search application. It should take this input from the user:
+This programming task consists of building a simple web application to search for flights. Fork this repository and implement a simple flight search application. It should take this input from the user:
 
 (Flight Number ||  (Origin && Destination)) && Date
 
-The application will call a service that you create in ExpressJS. Use Couchbase as the data source. You can download the docker image of Couchase and run it locally.   
-                                                                                                                                                                                                        
-https://docs.couchbase.com/server/5.5/install/getting-started-docker.html
- 
-Create a new bucket and add the documents included in project.
+The application will call a service that you create in either Node using Express or Java with Spring MVC. I have provided some sample data for the application in this file 
+
 
 [Flight Documents](./flight-docs/flight-sample.json)
 
-The file contains an array. Make a document out of each array element. You can you use any value you want as the document key. Create a N1QL statement update the date component of the arrrival and departure properties of each document. This will allow you to specify a current date when searching. 
+
+
+The file contains an array whose elements represent flights. The data should be defined as a constant in your service. 
 
 
 You must use Angular 4 or higher. Style however you would like. You have total freedom to do what you want but make sure it can do these two things:
@@ -23,5 +22,5 @@ You must use Angular 4 or higher. Style however you would like. You have total f
 	• Validate that the user has provided the right criteria to make a search 
 	• Neatly display the results
 
-Create a pull request once you have it working and so I can evaluate it. I will follow up with a quick discussion to review the code.
+Create a pull request once you have it working. I will clone your repository, verify that it works, and evaluate it.
 
